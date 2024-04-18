@@ -5,4 +5,51 @@ body {
   background-color: #e6ecf0;
 }
 
-/* TODO: Create CSS for your Twitter Mockup */
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 46px;
+  z-index: 100;
+  padding: 5px 50px; 
+  border-bottom: 1px solid #e1e8ed;
+}
+
+nav {
+  display: flex;
+  align-items: center; 
+}
+
+.navText {
+  color: #6a6a6a; 
+  margin-right: 20px; 
+  font-weight: bold; 
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 1.2em; 
+  font-weight: bold;
+  background-color: #00aced;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  margin-left: auto;
+  cursor: pointer;
+  border-radius: 16px;
+}
