@@ -42,13 +42,13 @@ body {
 .nav-container {
   justify-content: flex-start; 
   overflow: hidden;  
-  padding-left: 40px;
+  padding-left: 155px;
 }
 
 .button-container {
   justify-content: flex-end; 
   overflow: hidden; 
-  padding-right: 30px;
+  padding-right: 90px;
 }
 
 .navText {
@@ -79,4 +79,112 @@ body {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 32px;
+}
+
+.wrapper {
+  max-width: 1190px;
+  margin: 56px auto;
+}
+
+.contentLeft {
+  display: flex;
+  flex-direction: column; 
+}
+
+.firstRow {
+  height: 100px; 
+  background: black; 
+  max-width: 290px;
+  background-image: url("./images/ratatouille-banner.png");
+  background-size: 70% 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.secondRow {
+  height: 50px; 
+  background: white; 
+  max-width: 290px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.thirdRow {
+  height: 100px; 
+  background: white; 
+  max-width: 290px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pfp{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  margin-right: 180px;
+  margin-bottom: 20px;
+}
+
+.secondRow h3 {
+  text-decoration: underline;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+}
+
+.secondRow p {
+  position: relative;
+  top: 10px;
+  right: 30px;
+  color: #808080;
+}
+
+.text-item {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#text1 {
+  left: 15px;
+  color: #6a6a6a;
+}
+
+#text2 {
+  left: 50px;
+  color: #6a6a6a;
+}
+
+#text3 {
+  left: 70px;
+  color: #6a6a6a;
+}
+
+#text4 {
+  top: 30px;
+  right: 185px;
+  color: #4AB3F4;
+}
+
+#text5 {
+  top: 30px;
+  right: 133px;
+  color: #4AB3F4;
+}
+
+#text6 {
+  top: 30px;
+  right: 65px;
+  color: #4AB3F4;
 }
