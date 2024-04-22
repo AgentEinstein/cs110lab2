@@ -82,16 +82,17 @@ body {
 }
 
 .wrapper {
+  max-width: 1190px;
   display: flex;
   justify-content: left; 
   align-items: flex-start; 
-  margin-left: 175px;
-  margin-top: 50px;
+  margin: 56px auto;
 }
 
 .contentLeft {
   display: flex;
   flex-direction: column; 
+  margin-right:8px;
 }
 
 .firstRow {
@@ -133,6 +134,7 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  border: 2px solid #e6ecf0;
   object-fit: cover;
   position: absolute;
   margin-right: 180px;
@@ -223,11 +225,11 @@ body {
 
 .tweet-author {
   display: inline;
-  font-weight: bold;
 }
 
 .author-name {
   color: #000; 
+  font-weight: bold;
 }
 
 .author-handle,
@@ -245,4 +247,54 @@ body {
   background-color: #ffffff; 
   border-radius: 5px; 
   padding: 20px;
+}
+
+.content-right {
+  width: 290px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  margin-left: 8px;
+}
+
+.profile-suggestion {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e6ecf0;
+}
+.profile-info {
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row; 
+  margin-bottom:8px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.user-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column; 
+  padding: 10px; 
+}
+.follow-button {
+  padding: 6px 20px;
+  background-color: #fff;
+  color: #1da1f2;
+  border: 1px solid#1da1f2;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 1200px) {
+  .content-right {
+      display: none;
+  }
 }
